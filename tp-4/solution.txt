@@ -1,0 +1,4 @@
+docker run -d --name container-one training/postgres 
+docker run -d --name container-two training/webapp 
+docker network create my-net 
+docker network connect my-net container-one
