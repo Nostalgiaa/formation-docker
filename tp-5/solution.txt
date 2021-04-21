@@ -19,8 +19,11 @@ docker exec -it postgres-test psql -U postgres
 # SELECT * FROM test_table;
 # \q
 
-# Etape 5 : Ouvrez une application client de base de données comme pgadmin ou dbeaver
+# Etape 5 : Ouvrez une application client de base de données comme pgadmin ou dbeaver (mssql de vscode)
 Host: localhost
 Database: test
 User: postgres
 Password: password
+
+# Etape 6 : Tester la persistence des données via mssql (extenstion de vscode)
+select * from test_table
