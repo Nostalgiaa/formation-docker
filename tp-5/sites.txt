@@ -1,3 +1,4 @@
 https://www.lemagit.fr/conseil/Docker-quelles-sont-les-options-pour-le-stockage-persistant
 https://dev.to/techschoolguru/install-use-docker-postgres-table-plus-to-create-db-schema-44he
 https://qastack.fr/programming/37694987/connecting-to-postgresql-in-a-docker-container-from-outside
+https://docs.microsoft.com/fr-fr/sql/tools/visual-studio-code/sql-server-develop-use-vscode?view=sql-server-ver15
