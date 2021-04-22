@@ -1,0 +1,16 @@
+{
+    "name": "dev_container",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "app",
+    "settings": {
+    "terminal.integrated.shell.linux": "/bin/sh"
+    },
+    "forwardPorts": [
+    3000
+    ],
+    "workspaceFolder": "/app",
+    "extensions": [
+    "msjsdiag.debugger-for-chrome"
+    ]
+    }
+    
